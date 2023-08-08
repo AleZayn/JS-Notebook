@@ -19,9 +19,6 @@ const sumAll = (arr) => {
   // Concat input and missingEle
   const getArr = missingEle.concat(arr);
 
-  // Sort ele
-  getArr.sort((a, b) => a - b);
-
   // Sum of all
   const result = getArr.reduce((acc, curr) => acc + curr);
   return result;
